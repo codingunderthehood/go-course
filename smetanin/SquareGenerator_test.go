@@ -7,7 +7,7 @@ import (
 	"github.com/codingunderthehood/go-course/smetanin"
 )
 
-func TestSquareGenerator(t *testing.T) {
+func TestSolutionSquareGenerator(t *testing.T) {
 	res0 := smetanin.SolutionSquareGenerator(10, 2)
 	if !reflect.DeepEqual(res0, []int{100, 121}) {
 		t.Fatalf("[10, 11] should become [100, 121], but got %v", res0)
