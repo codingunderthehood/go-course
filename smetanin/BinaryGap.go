@@ -1,5 +1,6 @@
 package smetanin
 
+// It is worth to note that we hope that user won't input some data that will lead to an int overflow
 func SolutionBinaryGap(N int) int {
 	if N < 0 {
 		return 0
