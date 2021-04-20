@@ -25,9 +25,5 @@ func SolutionBinaryGap(N int) int {
 		}
 	}
 
-	if distance > result {
-		result = distance
-	}
-
 	return result
 }
